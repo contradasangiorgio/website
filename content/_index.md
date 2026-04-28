@@ -9,9 +9,9 @@ socials:
   - url: https://github.com/contradasangiorgio
     icon: fab fa-github
   - url: https://www.facebook.com/share/1EEG17Luki/
-    icon: fas fa-sharp fa-regular fa-tree
+    icon: fab fa-facebook
   - url: https://linktr.ee/contrada_sangiorgio_desio
-    icon: fab fa-sharp fa-regular fa-tree
+    icon: fas fa-sharp fa-regular fa-tree
 links:
   - href: https://your.site
     icon: fas fa-globe
