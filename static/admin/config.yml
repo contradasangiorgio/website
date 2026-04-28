@@ -102,4 +102,3 @@ collections:
             name: "body"
             widget: "markdown"
             required: false
-``
