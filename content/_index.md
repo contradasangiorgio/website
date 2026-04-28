@@ -8,10 +8,10 @@ socials:
     icon: fab fa-instagram
   - url: https://github.com/contradasangiorgio
     icon: fab fa-github
-  - url: https://www.instagram.com/contradasangiorgiodesio
+  - url: https://www.facebook.com/share/1EEG17Luki/
     icon: fab fa-facebook
   - url: https://linktr.ee/contrada_sangiorgio_desio
-    icon: fa-sharp fa-regular fa-tree
+    icon: fab fa-sharp fa-regular fa-tree
 links:
   - href: https://your.site
     icon: fas fa-globe
