@@ -1,19 +1,17 @@
 ---
 title: Contrada San Giorgio - Desio
 profileImage: /uploads/logo.jpg
-name: cx48
-description: Security Analyst | Frontend Developer | Content Writer
+name: Contrada San Giorgio - Desio
+description: "Sito web ufficiale della Contrada San Giorgio "
 socials:
-  - url: https://twitter.com/yourhandle
-    icon: fab fa-twitter
-  - url: https://instagram.com/yourhandle
+  - url: https://www.instagram.com/contradasangiorgiodesio
     icon: fab fa-instagram
-  - url: https://github.com/you
+  - url: https://github.com/contradasangiorgio
     icon: fab fa-github
-  - url: https://linkedin.com/in/yourhandle
-    icon: fab fa-linkedin
-  - url: https://youtube.com/yourchannel
-    icon: fab fa-youtube
+  - url: https://www.instagram.com/contradasangiorgiodesio
+    icon: fab fa-facebook
+  - url: https://linktr.ee/contrada_sangiorgio_desio
+    icon: fa-sharp fa-regular fa-tree
 links:
   - href: https://your.site
     icon: fas fa-globe
