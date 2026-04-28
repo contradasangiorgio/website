@@ -1,0 +1,105 @@
+backend:
+  name: git-gateway
+  branch: main   # cambia se usi master o altro
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "home"
+    label: "Home Page"
+    files:
+      - name: "index"
+        label: "Contenuto Home"
+        file: "content/_index.md"
+        fields:
+
+          # --- META ---
+          - label: "Titolo pagina"
+            name: "title"
+            widget: "string"
+
+          # --- PROFILE SETTINGS ---
+          - label: "Immagine profilo"
+            name: "profileImage"
+            widget: "image"
+            required: false
+
+          - label: "Nome"
+            name: "name"
+            widget: "string"
+
+          - label: "Descrizione"
+            name: "description"
+            widget: "text"
+
+          # --- SOCIAL LINKS ---
+          - label: "Social"
+            name: "socials"
+            widget: "list"
+            fields:
+              - label: "URL"
+                name: "url"
+                widget: "string"
+              - label: "Icona (FontAwesome)"
+                name: "icon"
+                widget: "string"
+
+          # --- LINK CARDS ---
+          - label: "Link cards"
+            name: "links"
+            widget: "list"
+            fields:
+              - label: "URL"
+                name: "href"
+                widget: "string"
+              - label: "Icona (FontAwesome)"
+                name: "icon"
+                widget: "string"
+              - label: "Titolo"
+                name: "title"
+                widget: "string"
+              - label: "Descrizione"
+                name: "description"
+                widget: "text"
+
+          # --- SPOTIFY ---
+          - label: "Spotify Playlist"
+            name: "spotifyPlaylist"
+            widget: "object"
+            required: false
+            fields:
+              - label: "Iframe embed"
+                name: "iframe"
+                widget: "text"
+                required: false
+
+          # --- MESSAGING ETIQUETTE ---
+          - label: "Messaging Etiquette"
+            name: "messaging"
+            widget: "object"
+            fields:
+              - label: "Titolo"
+                name: "title"
+                widget: "string"
+
+              - label: "Regole"
+                name: "items"
+                widget: "list"
+                fields:
+                  - label: "Icona (FontAwesome)"
+                    name: "icon"
+                    widget: "string"
+                  - label: "Colore (class CSS)"
+                    name: "color"
+                    widget: "string"
+                  - label: "Testo"
+                    name: "text"
+                    widget: "text"
+
+          # --- BODY (se usato dal tema) ---
+          - label: "Contenuto Markdown"
+            name: "body"
+            widget: "markdown"
+            required: false
+``
