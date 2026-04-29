@@ -30,7 +30,10 @@ links:
     icon: fab fa-github
     title: GitHub
     description: Pagina GitHub
-
+  - href: mailto:desiocontradasangiorgio@gmail.com?subject=Contatto%20dal%20sito%20|%20%20
+    icon: fas fa-envelope
+    title: Contattaci
+    description: Contattaci via mail
 
 
 
